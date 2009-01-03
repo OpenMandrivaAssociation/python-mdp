@@ -1,7 +1,7 @@
 %define tarname MDP
 %define name python-mdp
 %define version 2.4
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Modular Data Processing Toolkit for Python
 Name: 	 %{name}
