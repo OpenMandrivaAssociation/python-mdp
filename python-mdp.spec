@@ -1,21 +1,21 @@
 %define tarname MDP
-%define name python-mdp
-%define version 2.4
-%define release %mkrel 2
+%define name	python-mdp
+%define version 2.5
+%define release %mkrel 1
 
-Summary: Modular Data Processing Toolkit for Python
-Name: 	 %{name}
-Version: %{version}
-Release: %{release}
-Source0: %{tarname}-%{version}.tar.lzma
-Source1: MDP2_4_tutorial.pdf
-License: LGPLv3+
-Group: Development/Python
-Url: http://mdp-toolkit.sourceforge.net
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires: python >= 2.4, python-numpy >= 1.1, python-symeig
-BuildRequires: python-devel >= 2.4, python-numpy-devel >= 1.1, python-symeig
-BuildArch: noarch
+Summary:	Modular Data Processing Toolkit for Python
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Source0:	%{tarname}-%{version}.tar.gz
+Source1:	MDP2_5_tutorial.pdf
+License:	LGPLv3+
+Group:		Development/Python
+Url:		http://mdp-toolkit.sourceforge.net
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Requires:	python >= 2.4, python-numpy >= 1.1, python-symeig
+BuildRequires:	python-devel >= 2.4, python-numpy-devel >= 1.1, python-symeig
+BuildArch:	noarch
 
 %description
 The Modular toolkit for Data Processing (MDP) is a Python data
