@@ -37,7 +37,7 @@ chmod 644 *.pdf
 
 %install
 %__rm -rf %{buildroot}
-%__python setup.py install --root=%{buildroot} --record=FILELIST
+PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record=FILELIST
 
 %clean
 %__rm -rf %{buildroot}
