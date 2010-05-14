@@ -1,14 +1,14 @@
 %define tarname MDP
 %define name	python-mdp
-%define version 2.5
-%define release %mkrel 2
+%define version 2.6
+%define release %mkrel 1
 
 Summary:	Modular Data Processing Toolkit for Python
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Source0:	%{tarname}-%{version}.tar.gz
-Source1:	MDP2_5_tutorial.pdf
+Source1:	MDP2_6_tutorial.pdf
 License:	LGPLv3+
 Group:		Development/Python
 Url:		http://mdp-toolkit.sourceforge.net
