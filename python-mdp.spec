@@ -59,3 +59,47 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record
 %defattr(-,root,root)
 %doc README CHANGES COPY* TODO *.pdf
 
+
+
+%changelog
+* Mon Oct 24 2011 Lev Givon <lev@mandriva.org> 3.2-1mdv2011.0
++ Revision: 705906
+- Update to 3.2.
+
+* Wed Mar 30 2011 Lev Givon <lev@mandriva.org> 3.1-1
++ Revision: 649255
+- Update to 3.1.
+
+* Mon Jan 17 2011 Lev Givon <lev@mandriva.org> 3.0-1
++ Revision: 631275
+- Update to 3.0.
+
+* Mon Nov 01 2010 Funda Wang <fwang@mandriva.org> 2.6-2mdv2011.0
++ Revision: 591347
+- rebuild for py 2.7
+
+* Fri May 14 2010 Lev Givon <lev@mandriva.org> 2.6-1mdv2011.0
++ Revision: 544824
+- Update to 2.6.
+
+* Tue Mar 23 2010 Lev Givon <lev@mandriva.org> 2.5-2mdv2010.1
++ Revision: 526968
+- Require python-scipy 0.7.* instead of python-symeig
+  (the former now contains symeig).
+
+* Tue Jun 30 2009 Lev Givon <lev@mandriva.org> 2.5-1mdv2010.0
++ Revision: 390983
+- Update to 2.5.
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 2.4-2mdv2009.1
++ Revision: 323908
+- rebuild
+
+* Thu Oct 23 2008 Lev Givon <lev@mandriva.org> 2.4-1mdv2009.1
++ Revision: 296626
+- Update to 2.4.
+
+* Sun Oct 12 2008 Lev Givon <lev@mandriva.org> 2.3-1mdv2009.1
++ Revision: 293040
+- import python-mdp
+
