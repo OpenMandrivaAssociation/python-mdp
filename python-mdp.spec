@@ -4,7 +4,7 @@ Summary:	Modular Data Processing Toolkit for Python
 
 Name:		python-mdp
 Version:	3.2
-Release:	2
+Release:	3
 Source0:	%{tarname}-%{version}.tar.gz
 Source1:	MDP-tutorial.pdf
 License:	BSD
