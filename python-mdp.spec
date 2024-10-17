@@ -9,7 +9,7 @@ Source0:	%{tarname}-%{version}.tar.gz
 Source1:	MDP-tutorial.pdf
 License:	BSD
 Group:		Development/Python
-Url:		http://mdp-toolkit.sourceforge.net
+Url:		https://mdp-toolkit.sourceforge.net
 BuildArch:	noarch
 Requires:	python-numpy >= 1.1, python-scipy >= 0.7.0
 Suggests:	python-scikits-learn
